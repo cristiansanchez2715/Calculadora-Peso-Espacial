@@ -1,0 +1,123 @@
+
+#seccionPeso {
+    background-color: black;
+}
+
+#botonUrano {
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    color: rgb(79, 34, 184);
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+}
+
+#botonNeptuno{
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    color: rgb(79, 34, 184);
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+}
+
+#botonSaturno{
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    color: rgb(79, 34, 184);
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+}
+
+#botonMarte{
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    color: rgb(79, 34, 184);
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+}
+
+#botonJupiter {
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    color: rgb(79, 34, 184);
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+}
+
+#botonVenus{
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    color: rgb(79, 34, 184);
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+}
+
+#botonMercurio {
+    width: 60px;
+    height: 40px;
+    border-radius: 20px;
+    background: transparent;
+    color: rgb(79, 34, 184);
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+    margin: 30px;
+}
+
+#botonResultado {
+    background-color: black;
+    
+}
+
+#cuadrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    clip-path: circle(50% at center);
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+    animation-name: alcuadrado;
+    animation-duration: 20s;
+    animation-delay: 0s;
+    position: relative;
+    animation-direction: alternate-reverse;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes alcuadrado{
+    0% {background-color: rgb(212, 178, 11); left: 1200px; top: 700px;}
+    25% {background-color: black; left: 1000px; top: 300px;}
+    50% {background-color: darkblue; left: 900px; top: 600px}
+    75% {background-color: black; left: 100px; top: 300px}
+    100% {background: darkred; left: 1200px; top: 700px}
+
+}
+
+
+#nada{
+    background-color: black;
+}
+
+#escribe{
+    background-color: darkblue;
+}

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <title>Tu peso En otros Planetas</title>
+
+    </head>
+
+    <body>
+        <div id= "seccionPeso">  
+            <p>
+                <img src="planetas.jfif"/>
+            </p>
+    
+            
+            <h1> Escribe tu peso en KiloGramos </h1>
+            <input type="number" id="peso">
+            <button id= "botonPeso">ACEPTAR</button>
+        </p>
+    </div>
+    <script src="calculadora.js">
+    </script>
+    </body>
+    </html>
