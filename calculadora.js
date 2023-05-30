@@ -7,7 +7,7 @@ var Neptuno = 19.15
 var Venus = 8.87
 var Mercurio = 3.7
 var pesoUsuario = prompt('cual es tu peso?')
-document.write("tu peso actual en la tierra es de " + pesoUsuario + " kilogramos")
+
 
 // var pesoUsuario = document.getElementById("peso");
 // pesoUsuario.addEventListener("click", calcularPeso);
@@ -42,39 +42,42 @@ mercurio.addEventListener("click", pesoMercurio)
 var marte = document.getElementById("botonMarte")
 marte.addEventListener("click", pesoMarte)
 
+var parrafo = document.getElementById("parrafo")
+
+
 
 
 
 function pesoJupiter() {
-    alert ("tu peso actual en Jupiter es de " + pesoUsuarioJupiter + " kilogramos" );
-    Image.src = "el-planeta-jupiter_b107cb4f_1280x1280.jpg"
+    parrafo.innerHTML = "tu peso en Jupiter es de " + parseInt(pesoUsuarioJupiter) + " kilogramos" ;
+    Im
     
 }
 
 
 function pesoSaturno (){
-    alert(
-        "tu peso actual en Saturno es de " + pesoUsuarioSaturno + " kilogramos" )
+    
+    parrafo.innerHTML = "tu peso actual en Saturno es de " + parseInt(pesoUsuarioSaturno) + " kilogramos" 
         
 }
 
 function pesoUrano() {
-    alert("tu peso actual en Urano es de " + pesoUsuarioUrano + " kilogramos")
+    parrafo.innerHTML = "tu peso actual en Urano es de " + parseInt(pesoUsuarioUrano) + " kilogramos"
     
 }
 
 function pesoNeptuno(){
-    alert("tu peso actual en Neptuno es de " + pesoUsuarioNeptuno + " kilogramos")
+    parrafo.innerHTML = "tu peso actual en Neptuno es de " + parseInt(pesoUsuarioNeptuno) + " kilogramos"
 }
 
 function pesoVenus(){
-    alert("tu peso actual en Venus es de " + pesoUsuarioVenus + " kilogramos")
+    parrafo.innerHTML = "tu peso actual en Venus es de " + parseInt(pesoUsuarioVenus) + " kilogramos"
 }
 
 function pesoMercurio(){
-    alert("tu peso actual en Mercurio es de " + pesoUsuarioMercurio + " kilogramos")
+    parrafo.innerHTML = "tu peso actual en Mercurio es de " + parseInt(pesoUsuarioMercurio) + " kilogramos"
 }
 
 function pesoMarte(){
-    alert("tu peso actual en Marte es de " + pesoUsuarioMarte + " kilogramos")
+    parrafo.innerHTML = "tu peso actual en Marte es de " + parseInt(pesoUsuarioMarte) + " kilogramos"
 }

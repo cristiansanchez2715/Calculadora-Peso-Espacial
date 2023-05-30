@@ -1,83 +1,107 @@
-
-#seccionPeso {
+body{
     background-color: black;
 }
 
+
+#seccionPeso {
+    background-color: black;
+    width: 100vw;
+}
+
+#imagenBarra{
+    width: 100vw;
+    height: 300px;
+}
+
 #botonUrano {
-    width: 60px;
-    height: 40px;
-    border-radius: 20px;
-    background: transparent;
-    color: rgb(79, 34, 184);
+   
+    
+    
+
     border: 2px solid black;
     font-family: 'Poppins', sans-serif;
-    margin: 30px;
+    
 }
 
 #botonNeptuno{
-    width: 60px;
-    height: 40px;
-    border-radius: 20px;
-    background: transparent;
-    color: rgb(79, 34, 184);
+   
+    
+    
     border: 2px solid black;
     font-family: 'Poppins', sans-serif;
-    margin: 30px;
+    
 }
 
 #botonSaturno{
-    width: 60px;
-    height: 40px;
-    border-radius: 20px;
-    background: transparent;
-    color: rgb(79, 34, 184);
+  
+
+    
+
     border: 2px solid black;
     font-family: 'Poppins', sans-serif;
-    margin: 30px;
+    
 }
 
 #botonMarte{
-    width: 60px;
-    height: 40px;
-    border-radius: 20px;
-    background: transparent;
-    color: rgb(79, 34, 184);
+   
+    
+    
+    
     border: 2px solid black;
     font-family: 'Poppins', sans-serif;
-    margin: 30px;
+    
 }
 
 #botonJupiter {
-    width: 60px;
-    height: 40px;
-    border-radius: 20px;
-    background: transparent;
-    color: rgb(79, 34, 184);
+ 
+    
+    
+    
     border: 2px solid black;
     font-family: 'Poppins', sans-serif;
-    margin: 30px;
+    
 }
 
 #botonVenus{
-    width: 60px;
-    height: 40px;
-    border-radius: 20px;
-    background: transparent;
-    color: rgb(79, 34, 184);
+   
+    
+
+    
     border: 2px solid black;
     font-family: 'Poppins', sans-serif;
-    margin: 30px;
+    
 }
 
+.boton{
+    background-color: blue;
+    margin: 0px;
+    padding: 20px;
+    font-size: 20px;
+
+
+}
+
+.boton:hover{
+    background-image: linear-gradient(to bottom, #320841, #3b011d, #2e0c01, #1e1200, #10100f);
+cursor: pointer;
+}
+
+#parrafo{
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+
 #botonMercurio {
-    width: 60px;
-    height: 40px;
-    border-radius: 20px;
-    background: transparent;
-    color: rgb(79, 34, 184);
+   
+    
+    
+    
     border: 2px solid black;
     font-family: 'Poppins', sans-serif;
-    margin: 30px;
+    
 }
 
 #botonResultado {
@@ -90,10 +114,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+   
     clip-path: circle(50% at center);
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: darkgreen;
     animation-name: alcuadrado;
     animation-duration: 20s;
@@ -104,12 +128,20 @@
     animation-iteration-count: infinite;
 }
 
+
+#logo{
+width: 40px;
+height: 40px;
+}
+
+
+
 @keyframes alcuadrado{
-    0% {background-color: rgb(212, 178, 11); left: 1200px; top: 700px;}
-    25% {background-color: black; left: 1000px; top: 300px;}
-    50% {background-color: darkblue; left: 900px; top: 600px}
-    75% {background-color: black; left: 100px; top: 300px}
-    100% {background: darkred; left: 1200px; top: 700px}
+    0% {background-color: rgb(212, 178, 11); left: 100px; top: -300px;}
+    25% {background-color: black; left: 1000px; top: -300px;}
+    50% {background-color: darkblue; left: 1000px; top: -150px}
+    75% {background-color: black; left: 100px; top: -150px}
+    100% {background: darkred; left: 100px; top: -50px}
 
 }
 
